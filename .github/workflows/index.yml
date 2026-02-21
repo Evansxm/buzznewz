@@ -1,0 +1,17 @@
+name: Google Indexing
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit sitemap
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://evansxm.github.io/buzznewz/sitemap.xml"
+          echo "Sitemap ping sent!"
+      - name: Verify
+        run: |
+          echo "Site: https://evansxm.github.io/buzznewz/"
+          curl -sI https://evansxm.github.io/buzznewz/ | head -1
