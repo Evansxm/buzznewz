@@ -7,24 +7,26 @@
     <url><loc>https://buzznewz.com/lifestyle.html</loc><lastmod>2026-02-21</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
     <url><loc>https://buzznewz.com/about.html</loc><lastmod>2026-02-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
     <url><loc>https://buzznewz.com/contact.html</loc><lastmod>2026-02-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://buzznewz.com/article.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <!-- Dev Articles -->
+    <url><loc>https://buzznewz.com/article-vibe-coding.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-opencode.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-openai-gpt5-dev.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-gemini-dev.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <!-- Business/Stock Articles -->
+    <url><loc>https://buzznewz.com/article-xai-grok.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-nasdaq-tech-stocks.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-open-source-llm.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-future-automation.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-llm-business.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
     <!-- AI News Articles -->
-    <url><loc>https://buzznewz.com/article-ai-breakthrough.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-gpt5-announcement.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-healthcare.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-job-market.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-ethics.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-robotics.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-claude-4.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-gemini-ultra-2.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-microsoft-copilot.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-education.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-autonomous.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-quantum-ai.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-hollywood.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-apple-intelligence.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-funding.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-meta-ai.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-nvidia-rtx.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://buzznewz.com/article-ai-regulation.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://buzznewz.com/article-ai-breakthrough.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-gpt5-announcement.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-claude-4.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-gemini-ultra-2.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-microsoft-copilot.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-apple-intelligence.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-ai-funding.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-meta-ai.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-nvidia-rtx.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://buzznewz.com/article-ai-regulation.html</loc><lastmod>2026-02-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
