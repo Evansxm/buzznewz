@@ -1,0 +1,37 @@
+name: Deploy AdSense Update
+
+on:
+  repository_dispatch:
+    types: [update_adsense]
+  workflow_dispatch:
+    inputs:
+      publisher_id:
+        description: 'AdSense Publisher ID (ca-pub-...)'
+        required: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update AdSense ID
+        env:
+          PUBLISHER_ID: ${{ github.event.client_payload.publisher_id || inputs.publisher_id }}
+        run: |
+          echo "Updating AdSense ID to: $PUBLISHER_ID"
+          find . -name "*.html" -exec sed -i "s/ca-pub-XXXXXXXXXXXXXX/$PUBLISHER_ID/g" {} \;
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --quiet || git commit -m "Update AdSense ID - ${{ github.event.client_payload.publisher_id || inputs.publisher_id }}"
+
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
