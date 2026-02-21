@@ -1,15 +1,25 @@
-# Robots.txt for BuzzNewz
+# Robots.txt for BuzzNewz - Optimized for Google Indexing
 
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap locations
+Sitemap: https://evansxm.github.io/buzznewz/sitemap.xml
 Sitemap: https://buzznewz.com/sitemap.xml
 
-# Crawl-delay (optional)
+# Crawl-delay
 Crawl-delay: 1
 
-# Disallow admin/private areas (if any)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /cgi-bin/
+# Key pages
+Allow: /index.html
+Allow: /tech.html
+Allow: /entertainment.html
+Allow: /business.html
+Allow: /lifestyle.html
+Allow: /article-*.html
+
+# Static pages
+Allow: /about.html
+Allow: /contact.html
+Allow: /privacy.html
+Allow: /terms.html
